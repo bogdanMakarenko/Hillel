@@ -5,14 +5,15 @@
 
 //Replace loop for with while
 // #4.1
-var i = 0;
+/*var i = 0;
 while(i<3){
     alert( "Цифра " + i );
     i++;
-}
+}*/
 
 //Number bigger than 100
 // #4.2
+/*
 var num = 0;
 while(num<=100) {
     num = prompt('Input number bigger than 100', '');
@@ -24,10 +25,11 @@ while(num<=100) {
         alert('Please enter correct number');
     }
 }
+*/
 
 //Switch construction
 // #4.3
-var a = prompt('Input a number', '');
+/*var a = prompt('Input a number', '');
 if(a != null) {
     switch (a) {
         case '0':
@@ -43,7 +45,7 @@ if(a != null) {
         default:
             alert('Unknown input');
     }
-}
+}*/
 
 //Simple numbers
 // #4.4
