@@ -107,4 +107,4 @@ function copyProperties(copiedObject, cloneObject){
     return cloneObject; // used for console output
 }
 
-console.log(copyProperties(footballPlayer, emptyObject)); // correct
+console.log(copyProperties(footballPlayer, emptyObject)); //
