@@ -6,7 +6,7 @@
 
 // Describe how we can copy array
 // # 7.2
-/*
+
 var city = ['Kharkiv', 'Kiev', 'Odessa'];
 
 // 1 перебрать все элементы по циклу и записать в новый массив
@@ -24,11 +24,12 @@ var cityCopy3 = city.splice(0,city.length);
 
 // 4 использовать метод concat()
 var cityCopy4 = city.concat();
-*/
+
 
 // Create function addClass(obj, cls)
 // #7.3
-/*var listOfClasses = {
+
+var listOfClasses = {
 className: 'open menu'
 };
 
@@ -48,11 +49,12 @@ addClass(listOfClasses, 'new');
 console.log(addClass(listOfClasses, 'open'));
 addClass(listOfClasses, 'me');
 
-console.log(listOfClasses.className);*/
-//
+console.log(listOfClasses.className);
+
+
 // reverse function for array
 // #7.1 (Bonus)
-/*
+
 var arr = [1, 2, 5, 4, 8, 7, 21];
 
 function arrReverse(arr){
@@ -65,4 +67,4 @@ function arrReverse(arr){
 }
 
 arrReverse(arr);
-console.log(arr);*/
+console.log(arr);
