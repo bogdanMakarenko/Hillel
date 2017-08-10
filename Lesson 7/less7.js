@@ -34,6 +34,7 @@ className: 'open menu'
 };
 
 function addClass(obj, cls){
+    cls = cls.trim();
     var arrClass = obj.className.split(' ');
     for(let i=0; i < arrClass.length; i++){
         if(arrClass[i] === cls){
