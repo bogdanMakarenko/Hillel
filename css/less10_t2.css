@@ -1,0 +1,25 @@
+#target {
+    position:absolute;
+    left: 200px;
+    top:150px;
+    background:red;
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    /*animation: run 2s ease-in-out forwards;*/
+}
+
+input[type='button']{
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+}
+
+@keyframes run {
+    0% {
+        top: 150px;
+    }
+    100% {
+        top: calc(150px - 10px);
+    }
+}
