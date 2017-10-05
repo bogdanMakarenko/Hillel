@@ -18,8 +18,8 @@ function clockRunner() {
 	var seconds = date.getSeconds() * 6;
 	var minutes = date.getMinutes() * 6 + minuteDegree;
 	var hovers = (date.getHours() > 12) ? 
-							((date.getHours() - 12) * 30)
-	            :(date.getHours() * 30) + hourDegree;
+		     ((date.getHours() - 12) * 30):
+	             (date.getHours() * 30) + hourDegree;
 
 	hourEl.style.transform = 'rotate(' + hovers + 'deg)';
 	minuteEl.style.transform = 'rotate(' + minutes + 'deg)';
