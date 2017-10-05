@@ -11,6 +11,8 @@ function animateBall() {
 ball.style.left = '100px';
 ball.style.transform = 'rotate(0deg)';
 
+clearTimeout(handler);
+
 animationProcess();
 
   function animationProcess() {
